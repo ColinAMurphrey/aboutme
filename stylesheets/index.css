@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', monospace;
+    color: aliceblue;
+}
+
+#name-title {
+    color: aliceblue;
+    opacity: 0.70;
+    text-align: center;
+    padding-top: 45vh;
+}
+
+#name-h1 {
+    font-size: 60pt;
+}
+
+#name-p {
+    font-size: 24pt;
+}
+
+footer {
+    font-size: 24pt;
+    position: fixed;
+    bottom: 10vh;
+    left: 5vw;
+    width: 95%;
+    color: aliceblue;
+}
+
+a.dropdown-toggle {
+    color: aliceblue;
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.dropdown a {
+    background: transparent;
+    color: aliceblue;
+    transition: all 0.5;
+    max-height: 0;
+}
+
+a:hover {
+    opacity: 30%;
+    transition: opacity 0.5s;
+}
+
+.dropdown-menu, .dropdown-item:hover {
+    
+    background: transparent;
+}
