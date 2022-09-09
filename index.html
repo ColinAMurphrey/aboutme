@@ -10,60 +10,62 @@
 
         <!-- My CSS -->
         <style>
-            .high {
-                max-height: 100vh;
-                min-height: 100vh;
-            }
-
-            #introduction {
-                padding-top: 40vh;
-                padding-left: 30vh;
-                padding-right: 30vh;
-            }
-
-            #projects {
-                padding-top: 40vh;
-                padding-left: 30vh;
-                padding-right: 30vh;
-            }
-
-            #about-me {
-                padding-top: 40vh;
-                padding-bottom: 90vh;
-                padding-left: 30vh;
-                padding-right: 30vh;
+            body::before {
+                content: '';
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                right: 0px;
+                left: 0px;
+                background-image: url(./assets/GOOD.jpg);
+                background-size: cover;
+                background-position: top-center;
+                background-repeat: no-repeat;
+                opacity: 50%;
             }
         </style>
+        <link rel="stylesheet" href="./stylesheets/index.css">
 
         <title>Colin Murphrey</title>
     </head>
 
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <a class="navbar-brand nav-text" href="#"><!-- Navbar w/ text --></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-text" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text" href="#">Socials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text" href="#">About me</a>
+                    </li>
+                </ul>
+                <!--
+                <span class="navbar-text">
+                    Navbar text with an inline element
+                </span>
+            -->
+            </div>
+        </nav>
 
-        <!-- Introduction -->
-        <div class="container-fluid bg-light text-dark high" id="introduction">
-            <h1>Under construction!</h1>
-            <p>Please come back later!</p>
-        </div>
 
-        <div class="container-fluid bg-dark text-light high" id="projects">
-            <h1>Projects</h1>
+        <div class="container-fluid">
+
+            <div id="name-title">
+                <h1 id="name-h1">Colin Murphrey</h1>
+                <p id="name-p">Student & Web Designer</p>
+            </div>
         </div>
         
-        <div class="container-fluid bg-light text-dark high" id="about-me">
-            <h1>About me</h1>
-            <p>
-                This is some information will go here and eventually create a paragraph.
-                This first paragraph will probably state my occupation.
-            </p>
-            <p>
-                This paragraph is stating where I came from (school, job, etc.).
-            </p>
-            <p>
-                This paragraph is stating what I plan to do in the future.
-                This paragraph will also state how I will make connections, etc.
-            </p>
-        </div>
+
+        
 
 
         <!-- Optional JavaScript -->

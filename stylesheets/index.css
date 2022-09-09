@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', monospace;
+    color: aliceblue;
+}
+
+#name-title {
+    color: aliceblue;
+    opacity: 0.70;
+    text-align: center;
+    padding-top: 35vh;
+}
+
+#name-h1 {
+    font-size: 60pt;
+}
+
+#name-p {
+    font-size: 24pt;
+}
+
+.nav-text {
+    color: aliceblue !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.nav-text:hover {
+    color: #777777 !important;
+    transition: all 0.2s ease-in-out !important;
+}
