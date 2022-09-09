@@ -8,7 +8,7 @@ body {
     color: aliceblue;
     opacity: 0.70;
     text-align: center;
-    padding-top: 45vh;
+    padding-top: 35vh;
 }
 
 #name-h1 {
@@ -19,34 +19,12 @@ body {
     font-size: 24pt;
 }
 
-footer {
-    font-size: 24pt;
-    position: fixed;
-    bottom: 10vh;
-    left: 5vw;
-    width: 95%;
-    color: aliceblue;
+.nav-text {
+    color: aliceblue !important;
+    transition: all 0.2s ease-in-out !important;
 }
 
-a.dropdown-toggle {
-    color: aliceblue;
-    opacity: 100%;
-    transition: opacity 0.5s;
-}
-
-.dropdown a {
-    background: transparent;
-    color: aliceblue;
-    transition: all 0.5;
-    max-height: 0;
-}
-
-a:hover {
-    opacity: 30%;
-    transition: opacity 0.5s;
-}
-
-.dropdown-menu, .dropdown-item:hover {
-    
-    background: transparent;
+.nav-text:hover {
+    color: #777777 !important;
+    transition: all 0.2s ease-in-out !important;
 }
