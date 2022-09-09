@@ -30,28 +30,37 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-            <a class="navbar-brand nav-text" href="#"><!-- Navbar w/ text --></a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <a class="navbar-brand nav-text" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
+
+                    <!-- Home -->
                     <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link nav-text" href="./index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
+
+                    <!-- Socials -->
                     <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">Socials</a>
+                        <a class="nav-link nav-text" data-toggle="collapse" href="#socials" role="button" aria-expanded="false" aria-controls="socials">Socials ▾</a>
+                        <div class="collapse" id="socials">
+                            <ul id="socials-indent">
+                                <li><a class="nav-text" href="https://github.com/ColinAMurphrey/" target="_blank">Github</a></li>
+                                <!-- <li><a class="nav-text" href="#">Instagram</a></li> -->
+                            </ul>
+                        </div>
                     </li>
+
+                    <!-- About me -->
+                    <!-- 
                     <li class="nav-item">
                         <a class="nav-link nav-text" href="#">About me</a>
                     </li>
+                -->
                 </ul>
-                <!--
-                <span class="navbar-text">
-                    Navbar text with an inline element
-                </span>
-            -->
             </div>
         </nav>
 

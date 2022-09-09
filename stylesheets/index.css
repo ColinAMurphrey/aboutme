@@ -28,3 +28,17 @@ body {
     color: #777777 !important;
     transition: all 0.2s ease-in-out !important;
 }
+
+.navbar-dark {
+    color: aliceblue !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#socials {
+    padding-left: 5vw;
+}
