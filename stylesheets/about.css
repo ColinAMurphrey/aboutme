@@ -1,0 +1,14 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Courier New', monospace;
+    color: black;
+}
+
+#page-1 {
+    max-height: 100vh;
+    min-height: 100vh;
+    padding-top: 35vh;
+    width: 35%;
+    text-align: center;
+    margin: auto;
+}
