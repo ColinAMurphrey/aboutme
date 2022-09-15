@@ -16,7 +16,7 @@
 
             #timedate {
                 font: /* small-caps lighter 100pt/125% */ "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvatica Neue", Arial, sans-serif;
-                font-size: clamp(1rem, 10vw, 100vh);
+                font-size: /* 10vw; */ clamp(1rem, 10vw, 100vh); 
                 text-align: left;
                 width: 100%;
                 height: 100%;
@@ -36,6 +36,11 @@
     </head>
 
     <body onLoad="initClock()">
+
+        <!-- <button id="btn" onclick="setColor()">Button</button> -->
+
+        <!-- <input type="button" onclick="setColor()" value="color"> -->
+
         <div id="timedate">
             <a id="mon">January</a>
             <a id="d">1</a>,
@@ -48,6 +53,32 @@
         </div>
         
         <script>
+
+            const btn = document.getElementById('timedate');
+            let index = 0;
+            const colors = ['white', 'black'];
+
+            btn.addEventListener('click', function setColor() {
+                btn.style.color = colors[index];
+                index = index >= colors.length - 1 ? 0 : index + 1;
+            });
+            
+            /*
+            var count = 1;
+            function setColor(btn, color) {
+                var property = document.getElementById("timedate");
+                if (count == 0) {
+                    property.style.color = "#FFFFFF"
+                    count = 1;
+                }
+                else {
+                    property. style.color = "#000000"
+                    count = 0;
+                }
+            }
+            */
+
+
             // START CLOCK SCRIPT
 
             Number.prototype.pad = function(n) {
