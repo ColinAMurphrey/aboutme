@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>flippy</title>
+
+        <meta name="og:title" property="og:title" content="flippy">
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="flip_animation.css">
+    </head>
+
+    <body>
+
+        <div class="line"></div>
+
+        <div class="container">
+            <div class="holder">
+                <h1 id="hour">5</h1>
+
+                <div class="flip_container">
+                    <div class="container-segment">
+                        <div class="segment">
+                            <div class="flip-card" data-hour-tens>
+                                <div class="top">0</div>
+                                <div class="bottom">0</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 id="ampm">PM</h2>
+            </div>
+
+            <div class="holder" data-holder-tens>
+                <h1 id="minutes">33</h1>
+
+                <h1 class="hidden_0 hide" style="position: absolute; left: 15%; color: var(--text);z-index:1">0</h1>
+                <div class="flip_container">
+                    <div class="container-segment">
+                        <div class="segment">
+                            <div class="flip-card" data-minute-tens>
+                                <div class="top">0</div>
+                                <div class="bottom">0</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="features_popup">
+            <div id="basic_features">
+                <!-- <a href=""> -->
+                    <svg id="feature_toggle" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 24 24">
+                        <path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"></path>
+                    </svg>
+                <!-- </a> -->
+
+                <h1 class="feature_title" style="font-weight: 200">You have subscribed to floppa <bold style="font-weight: 600">BASIC</bold></h1>
+
+                <div class="info"
+            </div>
+        </div>
+
+    </body>
+</html>
