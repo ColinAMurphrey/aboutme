@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    font-family: 'Courier New', monospace;
+    color: black;
+}
+
+
+/* cards */
+.my-card-body {
+    position: relative;
+}
+
+.my-url-center {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+/* navigation pane stuff */
+.nav-text {
+    color: black !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.nav-text:hover {
+    color: #777777 !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.navbar-dark {
+    color: black !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#socials {
+    padding-left: 5vw;
+}
