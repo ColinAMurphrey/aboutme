@@ -1,0 +1,10 @@
+.cards div {
+    padding-top: 10px;
+    /* border: 1px solid black; */
+    /* border-radius: 10pt; */
+    max-height: 250px;
+}
+
+.cards div a:link, .cards div a:visited, .cards div a:hover, .cards div a:active {
+    color: black;
+}
